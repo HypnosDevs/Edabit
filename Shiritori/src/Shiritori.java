@@ -39,4 +39,9 @@ class Shiritori {
 	public String[] getWords(){
 		return words.toArray(new String[0]);
 	}
+
+	@Override
+	public String toString() {
+		return "Shiritori [game_over=" + game_over + ", words=" + words + "]";
+	}
 }
